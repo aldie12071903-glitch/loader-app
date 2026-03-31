@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Load Data dari Google Drive</title>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://accounts.google.com/gsi/client"></script>
+</head>
+<body>
+
+<h2>Load Data dari Google Drive</h2>
+<button onclick="handleAuthClick()">Pilih File dari Google Drive</button>
+
+<script>
+const CLIENT_ID = "CLIENT_ID_KAMU";
+const API_KEY = "API_KEY_KAMU";
+const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
+
+let tokenClient;
+
+function handleAuthClick() {
+  tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: CLIENT_ID,
+    scope: SCOPES,
+    callback: (tokenResponse) => {
+      loadPicker(tokenResponse.access_token);
+    },
+  });
+
+  tokenClient.requestAccessToken();
+}
+
+function loadPicker(accessToken) {
+  gapi.load('picker', () => {
+    const picker = new google.picker.PickerBuilder()
+      .addView(google.picker.ViewId.DOCS)
+      .setOAuthToken(accessToken)
+      .setDeveloperKey(API_KEY)
+      .setCallback(pickerCallback)
+      .build();
+    picker.setVisible(true);
+  });
+}
+
+function pickerCallback(data) {
+  if (data.action === google.picker.Action.PICKED) {
+    const fileId = data.docs[0].id;
+
+    fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
+      headers: {
+        Authorization: "Bearer " + gapi.client.getToken().access_token
+      }
+    })
+    .then(res => res.json())
+    .then(jsonData => {
+      
+      // 🔥 KIRIM KE HORIZON
+      localStorage.setItem("importData", JSON.stringify(jsonData));
+      
+      alert("Data berhasil diambil! Kembali ke web utama.");
+      
+      window.location.href = "URL_WEB_HORIZON_KAMU";
+    });
+  }
+}
+</script>
+
+</body>
+</html>
