@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Load Data dari Google Drive</title>
+  <title>Load dari Google Drive</title>
   <script src="https://apis.google.com/js/api.js"></script>
   <script src="https://accounts.google.com/gsi/client"></script>
 </head>
@@ -11,8 +11,8 @@
 <button onclick="handleAuthClick()">Pilih File dari Google Drive</button>
 
 <script>
-const CLIENT_ID = "CLIENT_ID_KAMU";
-const API_KEY = "API_KEY_KAMU";
+const CLIENT_ID = "170731743317-7khpolhesakd45suejf30d03iqsbjgdr.apps.googleusercontent.com";
+const API_KEY = "AIzaSyDPloL2fuZ24Rfx5WXaWF_DFyoY6NvpvgM";
 const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
 
 let tokenClient;
@@ -54,11 +54,8 @@ function pickerCallback(data) {
     .then(jsonData => {
       
       // 🔥 KIRIM KE HORIZON
-      localStorage.setItem("importData", JSON.stringify(jsonData));
+      window.location.href = "URL_WEB_HORIZON_KAMU?data=" + encodeURIComponent(JSON.stringify(jsonData));
       
-      alert("Data berhasil diambil! Kembali ke web utama.");
-      
-      window.location.href = "URL_WEB_HORIZON_KAMU";
     });
   }
 }
