@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Load Data dari Google Drive</title>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://accounts.google.com/gsi/client"></script>
+</head>
+<body>
+
+<h2>Load Data dari Google Drive</h2>
+<button id="pick-file-btn">Pilih File dari Google Drive</button>
+
+<script>
+  // 🔹 Nanti kita ganti dengan Environment Variables Vercel
+  const CLIENT_ID = "170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com";
+  const API_KEY = "AIzaSyDPloL2fuZ24Rfx5WXaWF_DFyoY6NvpvgM";
+  const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
+
+  let tokenClient;
+
+  document.getElementById("pick-file-btn").addEventListener("click", () => {
+    tokenClient = google.accounts.oauth2.initTokenClient({
+      client_id: CLIENT_ID,
+      scope: SCOPES,
+      callback: (tokenResponse) => {
+        loadPicker(tokenResponse.access_token);
+      },
+    });
+
+    tokenClient.requestAccessToken();
+  });
+
+  function loadPicker(accessToken) {
+    gapi.load('picker', () => {
+      const picker = new google.picker.PickerBuilder()
+        .addView(google.picker.ViewId.DOCS)
+        .setOAuthToken(accessToken)
+        .setDeveloperKey(API_KEY)
+        .setCallback((data) => {
+          if (data.action === google.picker.Action.PICKED) {
+            const fileId = data.docs[0].id;
+            fetchFile(fileId, accessToken);
+          }
+        })
+        .build();
+      picker.setVisible(true);
+    });
+  }
+
+  function fetchFile(fileId, accessToken) {
+    fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
+      headers: {
+        Authorization: "Bearer " + accessToken
+      }
+    })
+    .then(res => res.json())
+    .then(jsonData => {
+      // Simpan ke localStorage
+      localStorage.setItem("importData", JSON.stringify(jsonData));
+      alert("Data berhasil diambil! Kembali ke web utama.");
+      window.location.href = "mobilebip.my.id"; // ganti nanti
+    });
+  }
+</script>
+
+</body>
+</html>
