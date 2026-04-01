@@ -16,6 +16,12 @@
   const API_KEY = "AIzaSyDPloL2fuZ24Rfx5WXaWF_DFyoY6NvpvgM";
   const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
 
+  gapi.load("client", async () => {
+  await gapi.client.init({
+    apiKey: API_KEY,
+  });
+});
+  
   let tokenClient;
 
   document.getElementById("pick-file-btn").addEventListener("click", () => {
