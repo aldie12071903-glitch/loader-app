@@ -2,70 +2,123 @@
 <html>
 <head>
   <title>Load Data dari Google Drive</title>
+
+  <!-- Google API -->
   <script src="https://apis.google.com/js/api.js"></script>
   <script src="https://accounts.google.com/gsi/client"></script>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
 <h2>Load Data dari Google Drive</h2>
-<button id="pick-file-btn">Pilih File dari Google Drive</button>
+<button onclick="handleAuth()">Pilih File dari Google Drive</button>
 
 <script>
-  const CLIENT_ID = "170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com";
-  const API_KEY = "AIzaSyDPloL2fuZ24Rfx5WXaWF_DFyoY6NvpvgM";
-  const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
+const CLIENT_ID = "170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com";
+const API_KEY = "AIzaSyDPloL2fuZ24Rfx5WXaWF_DFyoY6NvpvgM";
+const SCOPES = "https://www.googleapis.com/auth/drive.readonly";
 
+let tokenClient;
+let accessToken = null;
+
+// 🔥 INIT GAPI
+function initGapi() {
   gapi.load("client", async () => {
-  await gapi.client.init({
-    apiKey: API_KEY,
-  });
-});
-  
-  let tokenClient;
-
-  document.getElementById("pick-file-btn").addEventListener("click", () => {
-    tokenClient = google.accounts.oauth2.initTokenClient({
-      client_id: CLIENT_ID,
-      scope: SCOPES,
-      callback: (tokenResponse) => {
-        loadPicker(tokenResponse.access_token);
-      },
+    await gapi.client.init({
+      apiKey: API_KEY,
     });
-
-    tokenClient.requestAccessToken();
+    console.log("GAPI READY");
   });
+}
 
-  function loadPicker(accessToken) {
-    gapi.load('picker', () => {
-      const picker = new google.picker.PickerBuilder()
-        .addView(google.picker.ViewId.DOCS)
-        .setOAuthToken(accessToken)
-        .setDeveloperKey(API_KEY)
-        .setCallback((data) => {
-          if (data.action === google.picker.Action.PICKED) {
-            const fileId = data.docs[0].id;
-            fetchFile(fileId, accessToken);
-          }
-        })
-        .build();
-      picker.setVisible(true);
-    });
-  }
-
-  function fetchFile(fileId, accessToken) {
-    fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, {
-      headers: {
-        Authorization: "Bearer " + accessToken
+// 🔥 INIT GOOGLE LOGIN
+function initGIS() {
+  tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: CLIENT_ID,
+    scope: SCOPES,
+    callback: async (response) => {
+      if (response.error) {
+        alert("Login gagal");
+        return;
       }
-    })
-    .then(res => res.json())
-    .then(jsonData => {
-      // Simpan ke localStorage
-      localStorage.setItem("importData", JSON.stringify(jsonData));
-      alert("Data berhasil diambil! Kembali ke web utama.");
-      window.location.href = "mobilebip.my.id"; // ganti nanti
-    });
+      accessToken = response.access_token;
+      openPicker();
+    },
+  });
+}
+
+// 🔥 KLIK BUTTON
+function handleAuth() {
+  if (!accessToken) {
+    tokenClient.requestAccessToken();
+  } else {
+    openPicker();
   }
+}
+
+// 🔥 BUKA GOOGLE DRIVE PICKER
+function openPicker() {
+  const picker = new google.picker.PickerBuilder()
+    .addView(google.picker.ViewId.DOCS)
+    .setOAuthToken(accessToken)
+    .setDeveloperKey(API_KEY)
+    .setCallback(pickerCallback)
+    .build();
+
+  picker.setVisible(true);
+}
+
+// 🔥 SAAT FILE DIPILIH
+async function pickerCallback(data) {
+  if (data.action === google.picker.Action.PICKED) {
+    const fileId = data.docs[0].id;
+
+    const res = await fetch(
+      `https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`,
+      {
+        headers: {
+          Authorization: "Bearer " + accessToken,
+        },
+      }
+    );
+
+    const text = await res.text();
+
+    try {
+      const json = JSON.parse(text);
+      console.log("DATA:", json);
+      alert("Data berhasil di-load!");
+    } catch {
+      alert("File bukan JSON");
+    }
+  }
+}
+
+// 🔥 LOAD SEMUA
+window.onload = () => {
+  initGapi();
+  initGIS();
+};
+</script>
+
+<!-- Google Picker -->
+<script src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+<script>
+function onApiLoad() {
+  gapi.load("picker");
+}
 </script>
 
 </body>
