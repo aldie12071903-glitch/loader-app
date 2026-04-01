@@ -70,14 +70,18 @@ function handleAuth() {
 
 // 🔥 BUKA GOOGLE DRIVE PICKER
 function openPicker() {
-  const picker = new google.picker.PickerBuilder()
-    .addView(google.picker.ViewId.DOCS)
-    .setOAuthToken(accessToken)
-    .setDeveloperKey(API_KEY)
-    .setCallback(pickerCallback)
-    .build();
+  gapi.load('picker', () => {
 
-  picker.setVisible(true);
+    const picker = new google.picker.PickerBuilder()
+      .addView(google.picker.ViewId.DOCS)
+      .setOAuthToken(accessToken)
+      .setDeveloperKey(API_KEY)
+      .setCallback(pickerCallback)
+      .build();
+
+    picker.setVisible(true);
+
+  });
 }
 
 // 🔥 SAAT FILE DIPILIH
