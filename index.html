@@ -69,11 +69,15 @@ function handleAuth() {
 }
 
 // 🔥 BUKA GOOGLE DRIVE PICKER
-function openPicker() {
+ffunction openPicker() {
   gapi.load('picker', () => {
 
+    const view = new google.picker.DocsView()
+      .setIncludeFolders(true)
+      .setParent("1rp3ON_1ZIcJ-N1SPHy0fETOwOJzhTMUl"); // 🔥 folder kamu
+
     const picker = new google.picker.PickerBuilder()
-      .addView(google.picker.ViewId.DOCS)
+      .addView(view)
       .setOAuthToken(accessToken)
       .setDeveloperKey(API_KEY)
       .setCallback(pickerCallback)
