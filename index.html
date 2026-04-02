@@ -106,12 +106,12 @@ async function pickerCallback(data) {
 
     try {
     const json = JSON.parse(text);
-    console.log("DATA:", json);
 
-    // 🔥 KIRIM KE WEB HORIZON
-    const encoded = encodeURIComponent(JSON.stringify(json));
+// simpan sementara di browser
+localStorage.setItem("data_tabungan_temp", JSON.stringify(json));
 
-window.location.href = "https://mobilebip.my.id?data=" + encoded;
+// pindah ke web horizon
+window.location.href = "https://mobilebip.my.id";
     } catch {
       alert("File bukan JSON");
     }
