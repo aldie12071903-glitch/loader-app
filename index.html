@@ -107,16 +107,14 @@ async function pickerCallback(data) {
     try {
     const json = JSON.parse(text);
 
-// simpan sementara di browser
-const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(json))));
+// Data yang ingin dikirim
+let text = "Ini data panjang yang ingin dikirim melalui URL";
 
-// simpan ke localStorage
-localStorage.setItem("data_tabungan_import", text);
+// Encode jadi Base64, lalu encode URL supaya aman
+let safeData = encodeURIComponent(btoa(unescape(encodeURIComponent(text))));
 
-// pindah ke web
-window.location.href = "https://mobilebip.my.id/login?data=" + btoa(text);
-    } catch {
-      alert("File bukan JSON");
+// Navigasi ke URL dengan parameter data
+window.location.href = "https://mobilebip.my.id/login?data=" + safeData;
     }
   }
 }
