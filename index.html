@@ -57,23 +57,13 @@
       picker.setVisible(true);
     }
 
-    function pickerCallback(data) {
+  function pickerCallback(data) {
     if (data.action === google.picker.Action.PICKED) {
-    const file = data.docs[0];
+      const file = data.docs[0];
+      const fileData = encodeURIComponent(JSON.stringify(file));
 
-    // buat form POST
-    const form = document.createElement('form');
-    form.method = 'POST';
-    form.action = 'https://mobilebip.my.id/login';
-
-    const input = document.createElement('input');
-    input.type = 'hidden';
-    input.name = 'fileData';
-    input.value = JSON.stringify(file);
-
-    form.appendChild(input);
-    document.body.appendChild(form);
-    form.submit();  // redirect dengan POST
+    // redirect ke mobilebip.my.id dengan data file
+    window.location.href = `https://mobilebip.my.id/login?file=${fileData}`;
   }
 }
 
