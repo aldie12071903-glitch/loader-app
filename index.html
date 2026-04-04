@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Google Drive Picker Demo</title>
-  <script src="https://apis.google.com/js/api.js"></script>
-  <script src="https://accounts.google.com/gsi/client"></script>
+  <title>Google Drive Picker Test</title>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
 </head>
 <body>
   <h2>Pilih File dari Google Drive</h2>
-  <button id="pick-file">Pilih File</button>
+  <button id="pickerButton">Pilih File</button>
+  <div id="fileInfo"></div>
 
   <script>
-    const CLIENT_ID = '170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com';
-    const DEVELOPER_KEY = 'AIzaSyBnPCZRPPv9PmZmKNTP7drOyYs2DRmm4BY';
+    const CLIENT_ID = '170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com'; // ganti dengan client_id-mu
+    const API_KEY = 'AIzaSyBnPCZRPPv9PmZmKNTP7drOyYs2DRmm4BY'; // ganti dengan API Key
     const SCOPES = ['https://www.googleapis.com/auth/drive.file'];
 
-    let oauthToken;
+    let tokenClient;
+    let accessToken = null;
 
-    document.getElementById('pick-file').addEventListener('click', () => {
-      gapi.load('client:auth2', initClient);
-    });
+    function gapiLoaded() {
+      gapi.load('picker', {'callback': onPickerApiLoad});
+    }
 
-    function initClient() {
-      gapi.auth2.init({ client_id: CLIENT_ID }).then(() => {
-        gapi.auth2.getAuthInstance().signIn({scope: SCOPES.join(' ')}).then(user => {
-          oauthToken = user.getAuthResponse().access_token;
-          loadPicker();
-        }).catch(err => console.error('Login gagal:', err));
+    function gisLoaded() {
+      tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: CLIENT_ID,
+        scope: SCOPES.join(' '),
+        callback: (resp) => {
+          accessToken = resp.access_token;
+          createPicker();
+        },
       });
     }
 
-    function loadPicker() {
-      gapi.load('picker', () => {
-        const view = new google.picker.DocsView(google.picker.ViewId.DOCS)
-          .setIncludeFolders(true)
-          .setSelectFolderEnabled(true);
-        
-        const picker = new google.picker.PickerBuilder()
-          .addView(view)
-          .setOAuthToken(oauthToken)
-          .setDeveloperKey(DEVELOPER_KEY)
-          .setCallback(pickerCallback)
-          .build();
-        
-        picker.setVisible(true);
-      });
+    function onPickerApiLoad() {
+      document.getElementById('pickerButton').disabled = false;
+    }
+
+    function handleAuthClick() {
+      if (!accessToken) {
+        tokenClient.requestAccessToken();
+      } else {
+        createPicker();
+      }
+    }
+
+    function createPicker() {
+      if (!accessToken) return;
+      const view = new google.picker.View(google.picker.ViewId.DOCS);
+      const picker = new google.picker.PickerBuilder()
+        .setOAuthToken(accessToken)
+        .setDeveloperKey(API_KEY)
+        .addView(view)
+        .setCallback(pickerCallback)
+        .build();
+      picker.setVisible(true);
     }
 
     function pickerCallback(data) {
       if (data.action === google.picker.Action.PICKED) {
         const file = data.docs[0];
-        alert(`File terpilih:\nNama: ${file.name}\nID: ${file.id}`);
+        document.getElementById('fileInfo').innerText =
+          `File: ${file.name} (${file.id})`;
       }
     }
+
+    document.getElementById('pickerButton').disabled = true;
+    document.getElementById('pickerButton').addEventListener('click', handleAuthClick);
+
+    // Load GAPI & GSI
+    function loadApis() {
+      gapiLoaded();
+      gisLoaded();
+    }
+    window.onload = loadApis;
   </script>
 </body>
 </html>
