@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Google Drive Picker Demo</title>
+  <title>Google Drive Picker Working</title>
   <script src="https://apis.google.com/js/api.js"></script>
   <script src="https://accounts.google.com/gsi/client"></script>
   <script src="https://www.gstatic.com/picker/1/picker.js"></script>
 </head>
 <body>
-<button onclick="handleAuth()">Pilih File dari Google Drive</button>
+<button id="pickBtn">Pilih File dari Google Drive</button>
 
 <script>
 const CLIENT_ID = "170731743317-55e1anpn363nup5tp9i9avjb4to1d7da.apps.googleusercontent.com";
@@ -22,36 +22,39 @@ function initGIS() {
   tokenClient = google.accounts.oauth2.initTokenClient({
     client_id: CLIENT_ID,
     scope: SCOPES,
+    prompt: 'consent', // 🔹 wajib untuk pertama kali login
     callback: (resp) => {
       if (resp.error) return alert("Login gagal");
       accessToken = resp.access_token;
+      // Setelah token ready, panggil Picker
       openPicker();
     }
   });
 }
 
-// Handle button
-function handleAuth() {
+document.getElementById('pickBtn').addEventListener('click', () => {
   if (!accessToken) tokenClient.requestAccessToken();
   else openPicker();
-}
+});
 
-// Buka Picker
+// Open Picker
 function openPicker() {
-  const view = new google.picker.DocsView()
-    .setIncludeFolders(true);
+  gapi.load('picker', () => {
+    const view = new google.picker.DocsView()
+      .setIncludeFolders(true);
 
-  const picker = new google.picker.PickerBuilder()
-    .addView(view)
-    .setOAuthToken(accessToken)
-    .setDeveloperKey(API_KEY)
-    .setCallback(pickerCallback)
-    .build();
+    const picker = new google.picker.PickerBuilder()
+      .addView(view)
+      .setOAuthToken(accessToken)
+      .setDeveloperKey(API_KEY)
+      .setCallback(pickerCallback)
+      .build();
 
-  picker.setVisible(true);
+    picker.setVisible(true);
+  });
 }
 
-// Callback saat file dipilih
+// Callback
 async function pickerCallback(data) {
   if (data.action === google.picker.Action.PICKED) {
     const fileId = data.docs[0].id;
@@ -64,6 +67,7 @@ async function pickerCallback(data) {
   }
 }
 
+// Init GIS saat load
 window.onload = initGIS;
 </script>
 </body>
