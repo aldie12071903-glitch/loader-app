@@ -114,7 +114,7 @@ const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(json))));
 localStorage.setItem("data_tabungan_import", text);
 
 // pindah ke web
-window.location.href = "https://mobilebip.my.id/login";
+window.location.href = "https://mobilebip.my.id/login?data=" + btoa(text);
     } catch {
       alert("File bukan JSON");
     }
