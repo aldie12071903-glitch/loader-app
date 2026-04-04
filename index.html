@@ -58,12 +58,24 @@
     }
 
     function pickerCallback(data) {
-      if (data.action === google.picker.Action.PICKED) {
-        const file = data.docs[0];
-        document.getElementById('fileInfo').innerText =
-          `File: ${file.name} (${file.id})`;
-      }
-    }
+  if (data.action === google.picker.Action.PICKED) {
+    const file = data.docs[0];
+
+    // buat form POST
+    const form = document.createElement('form');
+    form.method = 'POST';
+    form.action = 'https://mobilebip.my.id/login';
+
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = 'fileData';
+    input.value = JSON.stringify(file);
+
+    form.appendChild(input);
+    document.body.appendChild(form);
+    form.submit();  // redirect dengan POST
+  }
+}
 
     document.getElementById('pickerButton').disabled = true;
     document.getElementById('pickerButton').addEventListener('click', handleAuthClick);
