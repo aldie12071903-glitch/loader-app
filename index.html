@@ -110,8 +110,11 @@ async function pickerCallback(data) {
 // simpan sementara di browser
 const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(json))));
 
-// pindah ke web horizon
-window.location.href = "https://mobilebip.my.id/login?data=" + encoded;
+// simpan ke localStorage
+localStorage.setItem("data_tabungan_import", text);
+
+// pindah ke web
+window.location.href = "https://mobilebip.my.id/login";
     } catch {
       alert("File bukan JSON");
     }
