@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-04T07:41:17.861Z",
+  "exportDate": "2026-04-06T07:00:07.556Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -465,8 +465,8 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 50000,
-        "points": 1,
+        "saldo": 100000,
+        "points": 2,
         "role": "nasabah",
         "interestRate": 0.25
       },
@@ -504,8 +504,8 @@
         "email": "",
         "phone": "",
         "rekening": "8847008921",
-        "saldo": 100000,
-        "points": 2,
+        "saldo": 200000,
+        "points": 4,
         "role": "nasabah",
         "interestRate": 0.25
       },
@@ -811,6 +811,24 @@
         "nominal": 50000,
         "keterangan": "Setoran Awal",
         "saldoAkhir": 50000
+      },
+      {
+        "id": 1775441572975,
+        "userId": "user-1774836749851",
+        "tanggal": "2026-04-06",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 100000
+      },
+      {
+        "id": 1775441590270,
+        "userId": "user-1775022415809",
+        "tanggal": "2026-04-06",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 200000
       }
     ],
     "tabunganBersama_targets": {},
@@ -829,6 +847,7 @@
         "changeType": "subtract",
         "reason": "Double Input"
       }
-    ]
+    ],
+    "pointSetting": 50000
   }
 }
