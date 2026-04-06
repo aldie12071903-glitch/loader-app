@@ -47,15 +47,22 @@
 
     function createPicker() {
       if (!accessToken) return;
-      const view = new google.picker.View(google.picker.ViewId.DOCS);
-      const picker = new google.picker.PickerBuilder()
-        .setOAuthToken(accessToken)
-        .setDeveloperKey(API_KEY)
-        .addView(view)
-        .setCallback(pickerCallback)
-        .build();
-      picker.setVisible(true);
-    }
+
+        const view = new google.picker.DocsView()
+          .setIncludeFolders(false)
+          .setSelectFolderEnabled(false)
+          .setParent("1ztaqq6ElP1XXAO9EgVsBe91Zd2U67hIz") // 🔥 BATASI FOLDER
+          .setMimeTypes("application/json"); // optional biar cuma JSON
+
+        const picker = new google.picker.PickerBuilder()
+          .setOAuthToken(accessToken)
+          .setDeveloperKey(API_KEY)
+          .addView(view)
+          .setCallback(pickerCallback)
+          .build();
+
+ picker.setVisible(true);
+}
 
   function pickerCallback(data) {
     if (data.action === google.picker.Action.PICKED) {
