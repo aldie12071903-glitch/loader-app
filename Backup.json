@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-06T07:00:07.556Z",
+  "exportDate": "2026-04-06T07:30:33.893Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -23,8 +23,8 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 5350000,
-        "points": 87,
+        "saldo": 5550000,
+        "points": 91,
         "role": "nasabah",
         "interestRate": 0.25
       },
@@ -62,8 +62,8 @@
         "email": "",
         "phone": "",
         "rekening": "8815717478",
-        "saldo": 1490000,
-        "points": 7,
+        "saldo": 1550000,
+        "points": 8,
         "role": "nasabah",
         "interestRate": 0.25
       },
@@ -829,6 +829,24 @@
         "nominal": 100000,
         "keterangan": "Nabung",
         "saldoAkhir": 200000
+      },
+      {
+        "id": 1775460577782,
+        "userId": "user-1774834073617",
+        "tanggal": "2026-04-06",
+        "type": "Setoran",
+        "nominal": 200000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 5550000
+      },
+      {
+        "id": 1775460594770,
+        "userId": "user-1774834643367",
+        "tanggal": "2026-04-06",
+        "type": "Setoran",
+        "nominal": 60000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 1550000
       }
     ],
     "tabunganBersama_targets": {},
