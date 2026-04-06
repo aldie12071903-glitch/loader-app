@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-06T07:30:33.893Z",
+  "exportDate": "2026-04-06T08:02:06.734Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -13,7 +13,8 @@
         "rekening": "0000000000",
         "saldo": 0,
         "points": 0,
-        "role": "admin"
+        "role": "admin",
+        "level": "bronze"
       },
       {
         "id": "user-1774834073617",
@@ -26,7 +27,8 @@
         "saldo": 5550000,
         "points": 91,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "gold"
       },
       {
         "id": "user-1774834523749",
@@ -39,7 +41,8 @@
         "saldo": 550000,
         "points": 3,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774834600791",
@@ -52,7 +55,8 @@
         "saldo": 2600000,
         "points": 14,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "silver"
       },
       {
         "id": "user-1774834643367",
@@ -65,7 +69,8 @@
         "saldo": 1550000,
         "points": 8,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "silver"
       },
       {
         "id": "user-1774834676079",
@@ -78,7 +83,8 @@
         "saldo": 2000000,
         "points": 15,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "silver"
       },
       {
         "id": "user-1774834723627",
@@ -91,7 +97,8 @@
         "saldo": 700000,
         "points": 4,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835295740",
@@ -104,7 +111,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835330435",
@@ -117,7 +125,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835342972",
@@ -130,7 +139,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835357774",
@@ -143,7 +153,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835371375",
@@ -156,7 +167,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835385639",
@@ -169,7 +181,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835395618",
@@ -182,7 +195,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835427448",
@@ -195,7 +209,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835450869",
@@ -208,7 +223,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835461894",
@@ -221,7 +237,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835487981",
@@ -234,7 +251,8 @@
         "saldo": 200000,
         "points": 4,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835535739",
@@ -247,7 +265,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835561850",
@@ -260,7 +279,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835596852",
@@ -273,7 +293,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835604935",
@@ -286,7 +307,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835642090",
@@ -299,7 +321,8 @@
         "saldo": 150000,
         "points": 3,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835653265",
@@ -312,7 +335,8 @@
         "saldo": 200000,
         "points": 4,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835686382",
@@ -325,7 +349,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835694985",
@@ -338,7 +363,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835704535",
@@ -351,7 +377,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835822029",
@@ -364,7 +391,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835852835",
@@ -377,7 +405,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835941701",
@@ -390,7 +419,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774835976500",
@@ -403,7 +433,8 @@
         "saldo": 1000000,
         "points": 30,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "silver"
       },
       {
         "id": "user-1774836167093",
@@ -416,7 +447,8 @@
         "saldo": 30000,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774836200631",
@@ -429,7 +461,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774836305603",
@@ -442,7 +475,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774836319792",
@@ -455,7 +489,8 @@
         "saldo": 0,
         "points": 0,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774836749851",
@@ -468,7 +503,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774838217630",
@@ -481,7 +517,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1774940171997",
@@ -494,7 +531,8 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1775022415809",
@@ -507,7 +545,8 @@
         "saldo": 200000,
         "points": 4,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       },
       {
         "id": "user-1775115584594",
@@ -520,7 +559,8 @@
         "saldo": 50000,
         "points": 1,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "level": "bronze"
       }
     ],
     "tabunganBersama_transactions": [
@@ -866,6 +906,15 @@
         "reason": "Double Input"
       }
     ],
-    "pointSetting": 50000
+    "pointSetting": 50000,
+    "tabunganBersama_rewards": [
+      {
+        "name": "Buka Bersama",
+        "pointsRequired": 1000,
+        "description": "1 Paket Buka Bersama (free)",
+        "stock": 50,
+        "id": "1775462395824"
+      }
+    ]
   }
 }
