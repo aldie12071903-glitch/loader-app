@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-06T08:02:06.734Z",
+  "exportDate": "2026-04-10T03:21:48.726Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -290,8 +290,8 @@
         "email": "",
         "phone": "",
         "rekening": "8883788177",
-        "saldo": 100000,
-        "points": 2,
+        "saldo": 400000,
+        "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -887,6 +887,15 @@
         "nominal": 60000,
         "keterangan": "Nabung",
         "saldoAkhir": 1550000
+      },
+      {
+        "id": 1775791301338,
+        "userId": "user-1774835596852",
+        "tanggal": "2026-04-10",
+        "type": "Setoran",
+        "nominal": 300000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 400000
       }
     ],
     "tabunganBersama_targets": {},
@@ -906,15 +915,6 @@
         "reason": "Double Input"
       }
     ],
-    "pointSetting": 50000,
-    "tabunganBersama_rewards": [
-      {
-        "name": "Buka Bersama",
-        "pointsRequired": 1000,
-        "description": "1 Paket Buka Bersama (free)",
-        "stock": 50,
-        "id": "1775462395824"
-      }
-    ]
+    "pointSetting": 50000
   }
 }
