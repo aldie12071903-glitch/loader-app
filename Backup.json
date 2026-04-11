@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-11T03:37:10.793Z",
+  "exportDate": "2026-04-11T08:01:28.404Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -304,8 +304,8 @@
         "email": "",
         "phone": "",
         "rekening": "8808718410",
-        "saldo": 50000,
-        "points": 1,
+        "saldo": 100000,
+        "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -990,6 +990,15 @@
         "nominal": 50000,
         "keterangan": "Nabung",
         "saldoAkhir": 750000
+      },
+      {
+        "id": 1775878934093,
+        "userId": "user-1774835604935",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 100000
       }
     ],
     "tabunganBersama_targets": {},
