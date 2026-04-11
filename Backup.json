@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-10T03:21:48.726Z",
+  "exportDate": "2026-04-11T03:37:10.793Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -94,8 +94,8 @@
         "email": "",
         "phone": "",
         "rekening": "8829587161",
-        "saldo": 700000,
-        "points": 4,
+        "saldo": 750000,
+        "points": 5,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -136,8 +136,8 @@
         "email": "",
         "phone": "",
         "rekening": "8896001249",
-        "saldo": 50000,
-        "points": 1,
+        "saldo": 250000,
+        "points": 5,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -150,8 +150,8 @@
         "email": "",
         "phone": "",
         "rekening": "8805961316",
-        "saldo": 50000,
-        "points": 1,
+        "saldo": 100000,
+        "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -192,8 +192,8 @@
         "email": "",
         "phone": "",
         "rekening": "8856477675",
-        "saldo": 100000,
-        "points": 2,
+        "saldo": 250000,
+        "points": 5,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -234,8 +234,8 @@
         "email": "",
         "phone": "",
         "rekening": "8876844058",
-        "saldo": 50000,
-        "points": 1,
+        "saldo": 150000,
+        "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -561,6 +561,19 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
+      },
+      {
+        "id": "user-1775878498342",
+        "username": "Sidik",
+        "password": "123456",
+        "nama": "Sidik",
+        "email": "",
+        "phone": "",
+        "rekening": "8806226705",
+        "saldo": 50000,
+        "points": 1,
+        "role": "nasabah",
+        "interestRate": 0.25
       }
     ],
     "tabunganBersama_transactions": [
@@ -896,6 +909,87 @@
         "nominal": 300000,
         "keterangan": "Nabung",
         "saldoAkhir": 400000
+      },
+      {
+        "id": 1775878195979,
+        "userId": "user-1774835395618",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 200000
+      },
+      {
+        "id": 1775878384499,
+        "userId": "user-1774835342972",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung 6 April",
+        "saldoAkhir": 100000
+      },
+      {
+        "id": 1775878400240,
+        "userId": "user-1774835461894",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 150000
+      },
+      {
+        "id": 1775878465501,
+        "userId": "user-1774835342972",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung 8 April",
+        "saldoAkhir": 150000
+      },
+      {
+        "id": 1775878482708,
+        "userId": "user-1774835357774",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung 8 April",
+        "saldoAkhir": 100000
+      },
+      {
+        "id": 1775878519094,
+        "userId": "user-1775878498342",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung 9 April",
+        "saldoAkhir": 50000
+      },
+      {
+        "id": 1775878537271,
+        "userId": "user-1774835395618",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung 9 April",
+        "saldoAkhir": 250000
+      },
+      {
+        "id": 1775878563708,
+        "userId": "user-1774835342972",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "Nabung 9 April",
+        "saldoAkhir": 250000
+      },
+      {
+        "id": 1775878574932,
+        "userId": "user-1774834723627",
+        "tanggal": "2026-04-11",
+        "type": "Setoran",
+        "nominal": 50000,
+        "keterangan": "Nabung",
+        "saldoAkhir": 750000
       }
     ],
     "tabunganBersama_targets": {},
