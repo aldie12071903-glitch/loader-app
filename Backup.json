@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-11T08:01:28.404Z",
+  "exportDate": "2026-04-17T00:53:47.595Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -52,8 +52,8 @@
         "email": "",
         "phone": "",
         "rekening": "8842610044",
-        "saldo": 2600000,
-        "points": 14,
+        "saldo": 2700000,
+        "points": 16,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver"
@@ -290,8 +290,8 @@
         "email": "",
         "phone": "",
         "rekening": "8883788177",
-        "saldo": 400000,
-        "points": 8,
+        "saldo": 700000,
+        "points": 14,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -528,8 +528,8 @@
         "email": "",
         "phone": "",
         "rekening": "8844559842",
-        "saldo": 100000,
-        "points": 2,
+        "saldo": 400000,
+        "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -542,8 +542,8 @@
         "email": "",
         "phone": "",
         "rekening": "8847008921",
-        "saldo": 200000,
-        "points": 4,
+        "saldo": 300000,
+        "points": 6,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze"
@@ -999,6 +999,42 @@
         "nominal": 50000,
         "keterangan": "Nabung",
         "saldoAkhir": 100000
+      },
+      {
+        "id": 1776387182691,
+        "userId": "user-1774835596852",
+        "tanggal": "2026-04-17",
+        "type": "Setoran",
+        "nominal": 300000,
+        "keterangan": "nabung",
+        "saldoAkhir": 700000
+      },
+      {
+        "id": 1776387195990,
+        "userId": "user-1774940171997",
+        "tanggal": "2026-04-17",
+        "type": "Setoran",
+        "nominal": 300000,
+        "keterangan": "nabung",
+        "saldoAkhir": 400000
+      },
+      {
+        "id": 1776387212358,
+        "userId": "user-1775022415809",
+        "tanggal": "2026-04-17",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "nabung",
+        "saldoAkhir": 300000
+      },
+      {
+        "id": 1776387223122,
+        "userId": "user-1774834600791",
+        "tanggal": "2026-04-17",
+        "type": "Setoran",
+        "nominal": 100000,
+        "keterangan": "nabung",
+        "saldoAkhir": 2700000
       }
     ],
     "tabunganBersama_targets": {},
