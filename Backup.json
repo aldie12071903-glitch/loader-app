@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-25T05:43:28.226Z",
+  "exportDate": "2026-04-27T03:34:38.516Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -28,7 +28,8 @@
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "gold"
+        "level": "Gold",
+        "point": 100
       },
       {
         "id": "user-1774834523749",
