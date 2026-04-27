@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-27T03:34:38.516Z",
+  "exportDate": "2026-04-27T06:41:29.141Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -29,7 +29,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 100
+        "point": 99
       },
       {
         "id": "user-1774834523749",
@@ -43,7 +43,8 @@
         "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 8
       },
       {
         "id": "user-1774834600791",
@@ -57,7 +58,8 @@
         "points": 18,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver"
+        "level": "silver",
+        "point": 16
       },
       {
         "id": "user-1774834643367",
@@ -71,7 +73,8 @@
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver"
+        "level": "silver",
+        "point": 13
       },
       {
         "id": "user-1774834676079",
@@ -85,7 +88,8 @@
         "points": 15,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver"
+        "level": "silver",
+        "point": 15
       },
       {
         "id": "user-1774834723627",
@@ -99,7 +103,8 @@
         "points": 7,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 7
       },
       {
         "id": "user-1774835295740",
@@ -113,7 +118,8 @@
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774835330435",
@@ -127,7 +133,8 @@
         "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 2
       },
       {
         "id": "user-1774835342972",
@@ -141,7 +148,8 @@
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 8
       },
       {
         "id": "user-1774835357774",
@@ -155,7 +163,8 @@
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 3
       },
       {
         "id": "user-1774835371375",
@@ -183,7 +192,8 @@
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774835395618",
@@ -197,7 +207,8 @@
         "points": 6,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 5
       },
       {
         "id": "user-1774835427448",
@@ -239,7 +250,8 @@
         "points": 7,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 4
       },
       {
         "id": "user-1774835487981",
@@ -253,7 +265,8 @@
         "points": 19,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 8
       },
       {
         "id": "user-1774835535739",
@@ -267,7 +280,8 @@
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774835561850",
@@ -281,7 +295,8 @@
         "points": 31,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 13
       },
       {
         "id": "user-1774835596852",
@@ -295,7 +310,8 @@
         "points": 20,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 13
       },
       {
         "id": "user-1774835604935",
@@ -309,7 +325,8 @@
         "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 3
       },
       {
         "id": "user-1774835642090",
@@ -323,7 +340,8 @@
         "points": 5,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 4
       },
       {
         "id": "user-1774835653265",
@@ -333,11 +351,12 @@
         "email": "",
         "phone": "",
         "rekening": "8821717309",
-        "saldo": 200000,
+        "saldo": 400000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 4
       },
       {
         "id": "user-1774835686382",
@@ -351,7 +370,8 @@
         "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 2
       },
       {
         "id": "user-1774835694985",
@@ -379,7 +399,8 @@
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774835822029",
@@ -393,7 +414,8 @@
         "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 2
       },
       {
         "id": "user-1774835852835",
@@ -435,7 +457,8 @@
         "points": 30,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver"
+        "level": "silver",
+        "point": 12
       },
       {
         "id": "user-1774836167093",
@@ -463,7 +486,8 @@
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774836305603",
@@ -501,11 +525,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 200000,
+        "saldo": 250000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 1
       },
       {
         "id": "user-1774838217630",
@@ -533,7 +558,8 @@
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 5
       },
       {
         "id": "user-1775022415809",
@@ -547,7 +573,8 @@
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 4
       },
       {
         "id": "user-1775115584594",
@@ -561,7 +588,8 @@
         "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 3
       },
       {
         "id": "user-1775878498342",
@@ -574,10 +602,36 @@
         "saldo": 100000,
         "points": 2,
         "role": "nasabah",
-        "interestRate": 0.25
+        "interestRate": 0.25,
+        "point": 1,
+        "level": "Bronze"
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1777271757168",
+        "timestamp": "2026-04-27T06:35:57.168Z",
+        "nasabahId": "Yuni",
+        "nasabahName": "Yuni",
+        "amount": 200000,
+        "description": "Setoran Tunai",
+        "pointEarned": 4,
+        "balanceBefore": 200000,
+        "balanceAfter": 400000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1777271742886",
+        "timestamp": "2026-04-27T06:35:42.886Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 50000,
+        "description": "Setoran Tunai",
+        "pointEarned": 1,
+        "balanceBefore": 200000,
+        "balanceAfter": 250000,
+        "jenis": "Setoran"
+      },
       {
         "id": 1774838034238,
         "userId": "user-1774835342972",
