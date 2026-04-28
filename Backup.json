@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-27T06:41:29.141Z",
+  "exportDate": "2026-04-28T02:26:40.780Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -395,12 +395,12 @@
         "email": "",
         "phone": "",
         "rekening": "8894936052",
-        "saldo": 50000,
+        "saldo": 150000,
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 1
+        "point": 3
       },
       {
         "id": "user-1774835822029",
@@ -608,6 +608,18 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1777342793498",
+        "timestamp": "2026-04-28T02:19:53.498Z",
+        "nasabahId": "Suci",
+        "nasabahName": "Suci",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 50000,
+        "balanceAfter": 150000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1777271757168",
         "timestamp": "2026-04-27T06:35:57.168Z",
@@ -1307,6 +1319,20 @@
         "reason": "Double Input"
       }
     ],
-    "pointSetting": 50000
+    "pointSetting": 50000,
+    "tabunganBersama_rewards": [
+      {
+        "id": 1,
+        "nama": "Paket Buka Bersama 2027 (free)",
+        "poin_dibutuhkan": 650,
+        "gambar_url": "https://asset.kompas.com/crops/uBCyA1RGGBfdgXrjPoqtHas5tH8=/0x0:1000x667/1200x800/data/photo/2021/04/13/607538e062cad.jpg"
+      },
+      {
+        "id": 2,
+        "nama": "Hampers Parcel Lebaran 2027",
+        "poin_dibutuhkan": 1000,
+        "gambar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4D4nZOCnEeanZf0ArTZoPWec_4m8HQWI2eg&s"
+      }
+    ]
   }
 }
