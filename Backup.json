@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-28T02:26:40.780Z",
+  "exportDate": "2026-04-29T00:53:04.605Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -306,12 +306,12 @@
         "email": "",
         "phone": "",
         "rekening": "8883788177",
-        "saldo": 1000000,
+        "saldo": 1300000,
         "points": 20,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 13
+        "point": 19
       },
       {
         "id": "user-1774835604935",
@@ -608,6 +608,18 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1777423928746",
+        "timestamp": "2026-04-29T00:52:08.746Z",
+        "nasabahId": "Ekoinov",
+        "nasabahName": "Eko Inova",
+        "amount": 300000,
+        "description": "Setoran",
+        "pointEarned": 6,
+        "balanceBefore": 1000000,
+        "balanceAfter": 1300000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1777342793498",
         "timestamp": "2026-04-28T02:19:53.498Z",
