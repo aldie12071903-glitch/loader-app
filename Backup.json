@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-05-16T05:58:02.025Z",
+  "exportDate": "2026-05-16T08:33:04.638Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -144,12 +144,12 @@
         "email": "",
         "phone": "",
         "rekening": "8896001249",
-        "saldo": 500000,
+        "saldo": 550000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 10
+        "point": 11
       },
       {
         "id": "user-1774835357774",
@@ -159,12 +159,12 @@
         "email": "",
         "phone": "",
         "rekening": "8805961316",
-        "saldo": 250000,
+        "saldo": 1250000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 4
+        "point": 24
       },
       {
         "id": "user-1774835371375",
@@ -611,6 +611,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1778920332969",
+        "timestamp": "2026-05-16T08:32:12.969Z",
+        "nasabahId": "Tami",
+        "nasabahName": "Tami (Emenz)",
+        "amount": 1000000,
+        "description": "Setoran",
+        "pointEarned": 20,
+        "balanceBefore": 250000,
+        "balanceAfter": 1250000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1778920320087",
+        "timestamp": "2026-05-16T08:32:00.087Z",
+        "nasabahId": "Emen",
+        "nasabahName": "Emen",
+        "amount": 50000,
+        "description": "04/05",
+        "pointEarned": 1,
+        "balanceBefore": 500000,
+        "balanceAfter": 550000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1778911003249",
         "timestamp": "2026-05-16T05:56:43.249Z",
