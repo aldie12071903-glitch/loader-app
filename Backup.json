@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-05-16T08:33:04.638Z",
+  "exportDate": "2026-05-20T00:55:20.852Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -323,12 +323,12 @@
         "email": "",
         "phone": "",
         "rekening": "8808718410",
-        "saldo": 150000,
+        "saldo": 200000,
         "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 3
+        "point": 4
       },
       {
         "id": "user-1774835642090",
@@ -412,12 +412,12 @@
         "email": "",
         "phone": "",
         "rekening": "8839211211",
-        "saldo": 100000,
+        "saldo": 200000,
         "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 2
+        "point": 4
       },
       {
         "id": "user-1774835852835",
@@ -528,12 +528,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 350000,
+        "saldo": 400000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 3
+        "point": 4
       },
       {
         "id": "user-1774838217630",
@@ -611,6 +611,42 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1779238494218",
+        "timestamp": "2026-05-20T00:54:54.218Z",
+        "nasabahId": "Rian",
+        "nasabahName": "Rian",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 150000,
+        "balanceAfter": 200000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1779238480399",
+        "timestamp": "2026-05-20T00:54:40.399Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 350000,
+        "balanceAfter": 400000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1778920673876",
+        "timestamp": "2026-05-16T08:37:53.876Z",
+        "nasabahId": "Ely",
+        "nasabahName": "Ely",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 100000,
+        "balanceAfter": 200000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1778920332969",
         "timestamp": "2026-05-16T08:32:12.969Z",
