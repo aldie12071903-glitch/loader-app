@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-05-22T00:58:36.665Z",
+  "exportDate": "2026-05-22T03:17:08.836Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -24,12 +24,12 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 6400000,
+        "saldo": 6600000,
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 108
+        "point": 112
       },
       {
         "id": "user-1774834523749",
@@ -69,7 +69,7 @@
         "email": "",
         "phone": "",
         "rekening": "8815717478",
-        "saldo": 1900000,
+        "saldo": 1700000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
@@ -612,6 +612,18 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1779418691906",
+        "timestamp": "2026-05-22T02:58:11.906Z",
+        "nasabahId": "Agusgmx",
+        "nasabahName": "Agus GMX",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 6400000,
+        "balanceAfter": 6600000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1779411512263",
         "timestamp": "2026-05-22T00:58:32.263Z",
@@ -1791,6 +1803,18 @@
     "tabunganBersama_nasabahInterest": {},
     "accumulatedInterest": {},
     "tabunganBersama_auditLogs": [
+      {
+        "id": "LOG-1779419754448",
+        "timestamp": "2026-05-22T03:15:54.448Z",
+        "adminName": "Administrator",
+        "nasabahId": "Bendol",
+        "nasabahName": "Bendol",
+        "balanceBefore": 1900000,
+        "balanceAfter": 1700000,
+        "pointAdded": 0,
+        "changeType": "Pengurangan Manual",
+        "reason": "Koreksi saldo awal"
+      },
       {
         "id": "audit-1775116361519-2242hvrg3",
         "timestamp": "2026-04-02T07:52:41.519Z",
