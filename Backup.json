@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-05-26T07:29:07.800Z",
+  "exportDate": "2026-05-29T00:59:54.002Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -204,12 +204,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856477675",
-        "saldo": 450000,
+        "saldo": 550000,
         "points": 6,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 8
+        "point": 10
       },
       {
         "id": "user-1774835427448",
@@ -573,12 +573,12 @@
         "email": "",
         "phone": "",
         "rekening": "8847008921",
-        "saldo": 500000,
+        "saldo": 600000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 6
+        "point": 8
       },
       {
         "id": "user-1775115584594",
@@ -612,6 +612,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1780016383619",
+        "timestamp": "2026-05-29T00:59:43.619Z",
+        "nasabahId": "Wawan",
+        "nasabahName": "Wawan",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 450000,
+        "balanceAfter": 550000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1780016216624",
+        "timestamp": "2026-05-29T00:56:56.624Z",
+        "nasabahId": "Agustri",
+        "nasabahName": "Agus Tri",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 500000,
+        "balanceAfter": 600000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1779780541892",
         "timestamp": "2026-05-26T07:29:01.892Z",
