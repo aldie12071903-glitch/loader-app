@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-06-22T05:53:56.855Z",
+  "exportDate": "2026-06-24T01:44:13.127Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -308,12 +308,12 @@
         "email": "",
         "phone": "",
         "rekening": "8883788177",
-        "saldo": 2900000,
+        "saldo": 3500000,
         "points": 20,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 51
+        "point": 63
       },
       {
         "id": "user-1774835604935",
@@ -528,12 +528,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 600000,
+        "saldo": 650000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 8
+        "point": 9
       },
       {
         "id": "user-1774838217630",
@@ -612,6 +612,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1782265432783",
+        "timestamp": "2026-06-24T01:43:52.783Z",
+        "nasabahId": "Ekoinov",
+        "nasabahName": "Eko Inova",
+        "amount": 600000,
+        "description": "Setoran",
+        "pointEarned": 12,
+        "balanceBefore": 2900000,
+        "balanceAfter": 3500000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1782265420922",
+        "timestamp": "2026-06-24T01:43:40.922Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 600000,
+        "balanceAfter": 650000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1782107630977",
         "timestamp": "2026-06-22T05:53:50.977Z",
