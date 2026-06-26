@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-06-25T01:54:58.101Z",
+  "exportDate": "2026-06-26T01:24:08.606Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -293,12 +293,12 @@
         "email": "",
         "phone": "",
         "rekening": "8800702041",
-        "saldo": 1050000,
+        "saldo": 2050000,
         "points": 31,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 13
+        "point": 33
       },
       {
         "id": "user-1774835596852",
@@ -353,12 +353,12 @@
         "email": "",
         "phone": "",
         "rekening": "8821717309",
-        "saldo": 1000000,
+        "saldo": 1200000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 16
+        "point": 20
       },
       {
         "id": "user-1774835686382",
@@ -612,6 +612,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1782437004755",
+        "timestamp": "2026-06-26T01:23:24.755Z",
+        "nasabahId": "Yuni",
+        "nasabahName": "Yuni",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 1000000,
+        "balanceAfter": 1200000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1782436977621",
+        "timestamp": "2026-06-26T01:22:57.621Z",
+        "nasabahId": "Ekowates",
+        "nasabahName": "Eko Wates",
+        "amount": 1000000,
+        "description": "Setoran",
+        "pointEarned": 20,
+        "balanceBefore": 1050000,
+        "balanceAfter": 2050000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1782352480355",
         "timestamp": "2026-06-25T01:54:40.355Z",
