@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-07-07T01:22:39.384Z",
+  "exportDate": "2026-07-13T01:00:48.009Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -144,12 +144,12 @@
         "email": "",
         "phone": "",
         "rekening": "8896001249",
-        "saldo": 750000,
+        "saldo": 850000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 15
+        "point": 17
       },
       {
         "id": "user-1774835357774",
@@ -456,12 +456,12 @@
         "email": "",
         "phone": "",
         "rekening": "8899483844",
-        "saldo": 1400000,
+        "saldo": 1500000,
         "points": 30,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver",
-        "point": 20
+        "point": 22
       },
       {
         "id": "user-1774836167093",
@@ -471,11 +471,12 @@
         "email": "",
         "phone": "",
         "rekening": "8816331571",
-        "saldo": 30000,
+        "saldo": 50000,
         "points": 0,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze"
+        "level": "bronze",
+        "point": 0
       },
       {
         "id": "user-1774836200631",
@@ -603,15 +604,63 @@
         "email": "",
         "phone": "",
         "rekening": "8806226705",
-        "saldo": 100000,
+        "saldo": 150000,
         "points": 2,
         "role": "nasabah",
         "interestRate": 0.25,
-        "point": 1,
+        "point": 2,
         "level": "Bronze"
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1783904440882",
+        "timestamp": "2026-07-13T01:00:40.882Z",
+        "nasabahId": "Sidik",
+        "nasabahName": "Sidik",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 100000,
+        "balanceAfter": 150000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1783904430279",
+        "timestamp": "2026-07-13T01:00:30.279Z",
+        "nasabahId": "Achid",
+        "nasabahName": "Achid",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 1400000,
+        "balanceAfter": 1500000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1783904420710",
+        "timestamp": "2026-07-13T01:00:20.710Z",
+        "nasabahId": "Emen",
+        "nasabahName": "Emen",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 750000,
+        "balanceAfter": 850000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1783904412656",
+        "timestamp": "2026-07-13T01:00:12.656Z",
+        "nasabahId": "Kancil",
+        "nasabahName": "Kancil",
+        "amount": 20000,
+        "description": "Setoran",
+        "pointEarned": 0,
+        "balanceBefore": 30000,
+        "balanceAfter": 50000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1783387352432",
         "timestamp": "2026-07-07T01:22:32.432Z",
