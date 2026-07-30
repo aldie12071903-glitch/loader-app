@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-07-30T02:11:43.111Z",
+  "exportDate": "2026-07-30T07:56:47.913Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -159,12 +159,12 @@
         "email": "",
         "phone": "",
         "rekening": "8805961316",
-        "saldo": 1250000,
+        "saldo": 1300000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 24
+        "point": 25
       },
       {
         "id": "user-1774835371375",
@@ -456,12 +456,12 @@
         "email": "",
         "phone": "",
         "rekening": "8899483844",
-        "saldo": 1500000,
+        "saldo": 1700000,
         "points": 30,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver",
-        "point": 22
+        "point": 26
       },
       {
         "id": "user-1774836167093",
@@ -471,7 +471,7 @@
         "email": "",
         "phone": "",
         "rekening": "8816331571",
-        "saldo": 50000,
+        "saldo": 75000,
         "points": 0,
         "role": "nasabah",
         "interestRate": 0.25,
@@ -613,6 +613,42 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1785398202269",
+        "timestamp": "2026-07-30T07:56:42.269Z",
+        "nasabahId": "Achid",
+        "nasabahName": "Achid",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 1500000,
+        "balanceAfter": 1700000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1785398194495",
+        "timestamp": "2026-07-30T07:56:34.495Z",
+        "nasabahId": "Kancil",
+        "nasabahName": "Kancil",
+        "amount": 25000,
+        "description": "Setoran",
+        "pointEarned": 0,
+        "balanceBefore": 50000,
+        "balanceAfter": 75000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1785398186729",
+        "timestamp": "2026-07-30T07:56:26.729Z",
+        "nasabahId": "Tami",
+        "nasabahName": "Tami (Emenz)",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 1250000,
+        "balanceAfter": 1300000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1785377188756",
         "timestamp": "2026-07-30T02:06:28.756Z",
