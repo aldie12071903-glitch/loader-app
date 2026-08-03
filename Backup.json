@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-07-30T07:56:47.913Z",
+  "exportDate": "2026-08-03T02:24:26.176Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -69,7 +69,7 @@
         "email": "",
         "phone": "",
         "rekening": "8815717478",
-        "saldo": 2000000,
+        "saldo": 1800000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
@@ -353,12 +353,12 @@
         "email": "",
         "phone": "",
         "rekening": "8821717309",
-        "saldo": 1400000,
+        "saldo": 1600000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 24
+        "point": 28
       },
       {
         "id": "user-1774835686382",
@@ -529,12 +529,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 950000,
+        "saldo": 1050000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 15
+        "point": 17
       },
       {
         "id": "user-1774838217630",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1785722652566",
+        "timestamp": "2026-08-03T02:04:12.566Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 950000,
+        "balanceAfter": 1050000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1785722449774",
+        "timestamp": "2026-08-03T02:00:49.774Z",
+        "nasabahId": "Yuni",
+        "nasabahName": "Yuni",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 1400000,
+        "balanceAfter": 1600000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1785398202269",
         "timestamp": "2026-07-30T07:56:42.269Z",
@@ -2716,6 +2740,18 @@
     "tabunganBersama_nasabahInterest": {},
     "accumulatedInterest": {},
     "tabunganBersama_auditLogs": [
+      {
+        "id": "LOG-1785722481764",
+        "timestamp": "2026-08-03T02:01:21.764Z",
+        "adminName": "Administrator",
+        "nasabahId": "Bendol",
+        "nasabahName": "Bendol",
+        "balanceBefore": 2000000,
+        "balanceAfter": 1800000,
+        "pointAdded": 0,
+        "changeType": "Pengurangan Manual",
+        "reason": "koreksi hutang"
+      },
       {
         "id": "LOG-1782699202549",
         "timestamp": "2026-06-29T02:13:22.549Z",
