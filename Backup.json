@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-08-03T07:36:30.110Z",
+  "exportDate": "2026-08-03T07:42:05.922Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -29,7 +29,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 140
+        "point": 470
       },
       {
         "id": "user-1774834523749",
@@ -43,8 +43,8 @@
         "points": 3,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze",
-        "point": 57
+        "level": "Silver",
+        "point": 103
       },
       {
         "id": "user-1774834600791",
@@ -59,7 +59,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver",
-        "point": 30
+        "point": 44
       },
       {
         "id": "user-1774834643367",
@@ -73,8 +73,8 @@
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver",
-        "point": 26
+        "level": "Silver",
+        "point": 42
       },
       {
         "id": "user-1774834676079",
@@ -88,8 +88,8 @@
         "points": 15,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver",
-        "point": 21
+        "level": "Silver",
+        "point": 89
       },
       {
         "id": "user-1774834723627",
@@ -104,7 +104,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 18
+        "point": 34
       },
       {
         "id": "user-1774835295740",
@@ -149,7 +149,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 17
+        "point": 32
       },
       {
         "id": "user-1774835357774",
@@ -164,7 +164,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 25
+        "point": 42
       },
       {
         "id": "user-1774835371375",
@@ -297,8 +297,8 @@
         "points": 31,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze",
-        "point": 33
+        "level": "Silver",
+        "point": 54
       },
       {
         "id": "user-1774835596852",
@@ -313,7 +313,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 65
+        "point": 115
       },
       {
         "id": "user-1774835604935",
@@ -343,7 +343,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 20
+        "point": 44
       },
       {
         "id": "user-1774835653265",
@@ -357,8 +357,8 @@
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "bronze",
-        "point": 28
+        "level": "Silver",
+        "point": 35
       },
       {
         "id": "user-1774835686382",
@@ -460,8 +460,8 @@
         "points": 30,
         "role": "nasabah",
         "interestRate": 0.25,
-        "level": "silver",
-        "point": 26
+        "level": "Silver",
+        "point": 35
       },
       {
         "id": "user-1774836167093",
@@ -534,7 +534,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 17
+        "point": 21
       },
       {
         "id": "user-1774838217630",
@@ -564,7 +564,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 31
+        "point": 45
       },
       {
         "id": "user-1775022415809",
