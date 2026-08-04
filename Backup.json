@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-08-04T02:25:29.498Z",
+  "exportDate": "2026-08-04T02:34:34.539Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -610,16 +610,6 @@
         "interestRate": 0.25,
         "point": 2,
         "level": "Bronze"
-      },
-      {
-        "username": "Aldie",
-        "password": "123456",
-        "nama": "Aldie",
-        "rekening": "89691936006",
-        "saldo": 0,
-        "point": 2769,
-        "level": "Platinum",
-        "role": "nasabah"
       }
     ],
     "tabunganBersama_transactions": [
