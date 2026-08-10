@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-08-10T01:18:44.516Z",
+  "exportDate": "2026-08-10T02:14:34.298Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -24,12 +24,12 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 8000000,
+        "saldo": 8200000,
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 470
+        "point": 474
       },
       {
         "id": "user-1774834523749",
@@ -69,12 +69,12 @@
         "email": "",
         "phone": "",
         "rekening": "8815717478",
-        "saldo": 1800000,
+        "saldo": 1850000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Silver",
-        "point": 42
+        "point": 43
       },
       {
         "id": "user-1774834676079",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1786328045246",
+        "timestamp": "2026-08-10T02:14:05.246Z",
+        "nasabahId": "Agusgmx",
+        "nasabahName": "Agus GMX",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 8000000,
+        "balanceAfter": 8200000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1786328039500",
+        "timestamp": "2026-08-10T02:13:59.500Z",
+        "nasabahId": "Bendol",
+        "nasabahName": "Bendol",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 1800000,
+        "balanceAfter": 1850000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1786324632148",
         "timestamp": "2026-08-10T01:17:12.148Z",
