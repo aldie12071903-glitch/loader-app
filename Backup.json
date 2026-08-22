@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-08-22T01:14:58.628Z",
+  "exportDate": "2026-08-22T06:03:05.467Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -54,12 +54,12 @@
         "email": "",
         "phone": "",
         "rekening": "8842610044",
-        "saldo": 2100000,
+        "saldo": 2200000,
         "points": 18,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver",
-        "point": 46
+        "point": 48
       },
       {
         "id": "user-1774834643367",
@@ -397,12 +397,12 @@
         "email": "",
         "phone": "",
         "rekening": "8894936052",
-        "saldo": 350000,
+        "saldo": 450000,
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 7
+        "point": 9
       },
       {
         "id": "user-1774835822029",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1787378523435",
+        "timestamp": "2026-08-22T06:02:03.435Z",
+        "nasabahId": "Gino",
+        "nasabahName": "Gino",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 2100000,
+        "balanceAfter": 2200000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1787378514927",
+        "timestamp": "2026-08-22T06:01:54.927Z",
+        "nasabahId": "Suci",
+        "nasabahName": "Suci",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 350000,
+        "balanceAfter": 450000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1787361290026",
         "timestamp": "2026-08-22T01:14:50.026Z",
