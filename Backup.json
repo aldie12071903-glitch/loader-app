@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-08-31T01:29:38.235Z",
+  "exportDate": "2026-09-01T08:28:42.830Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -24,12 +24,12 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 8400000,
+        "saldo": 8700000,
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 478
+        "point": 484
       },
       {
         "id": "user-1774834523749",
@@ -89,7 +89,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Silver",
-        "point": 97
+        "point": 120
       },
       {
         "id": "user-1774834723627",
@@ -298,7 +298,7 @@
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Silver",
-        "point": 74
+        "point": 109
       },
       {
         "id": "user-1774835596852",
@@ -397,12 +397,12 @@
         "email": "",
         "phone": "",
         "rekening": "8894936052",
-        "saldo": 450000,
+        "saldo": 500000,
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 9
+        "point": 10
       },
       {
         "id": "user-1774835822029",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1788251209187",
+        "timestamp": "2026-09-01T08:26:49.187Z",
+        "nasabahId": "Suci",
+        "nasabahName": "Suci",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 450000,
+        "balanceAfter": 500000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1788251198821",
+        "timestamp": "2026-09-01T08:26:38.821Z",
+        "nasabahId": "Agusgmx",
+        "nasabahName": "Agus GMX",
+        "amount": 300000,
+        "description": "Setoran",
+        "pointEarned": 6,
+        "balanceBefore": 8400000,
+        "balanceAfter": 8700000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1788139775565",
         "timestamp": "2026-08-31T01:29:35.565Z",
