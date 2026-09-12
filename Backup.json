@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-09-07T02:32:45.681Z",
+  "exportDate": "2026-09-12T01:25:33.941Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -24,12 +24,12 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 8700000,
+        "saldo": 8900000,
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 484
+        "point": 488
       },
       {
         "id": "user-1774834523749",
@@ -54,12 +54,12 @@
         "email": "",
         "phone": "",
         "rekening": "8842610044",
-        "saldo": 2300000,
+        "saldo": 2400000,
         "points": 18,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "silver",
-        "point": 50
+        "point": 52
       },
       {
         "id": "user-1774834643367",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1789176323721",
+        "timestamp": "2026-09-12T01:25:23.721Z",
+        "nasabahId": "Gino",
+        "nasabahName": "Gino",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 2300000,
+        "balanceAfter": 2400000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1789176201559",
+        "timestamp": "2026-09-12T01:23:21.559Z",
+        "nasabahId": "Agusgmx",
+        "nasabahName": "Agus GMX",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 8700000,
+        "balanceAfter": 8900000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1788748280840",
         "timestamp": "2026-09-07T02:31:20.840Z",
