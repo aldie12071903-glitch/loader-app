@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-09-12T01:25:33.941Z",
+  "exportDate": "2026-09-14T01:29:45.392Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -99,12 +99,12 @@
         "email": "",
         "phone": "",
         "rekening": "8829587161",
-        "saldo": 1500000,
+        "saldo": 1600000,
         "points": 7,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 36
+        "point": 38
       },
       {
         "id": "user-1774835295740",
@@ -144,12 +144,12 @@
         "email": "",
         "phone": "",
         "rekening": "8896001249",
-        "saldo": 900000,
+        "saldo": 950000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 33
+        "point": 34
       },
       {
         "id": "user-1774835357774",
@@ -159,12 +159,12 @@
         "email": "",
         "phone": "",
         "rekening": "8805961316",
-        "saldo": 1350000,
+        "saldo": 1400000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 43
+        "point": 44
       },
       {
         "id": "user-1774835371375",
@@ -529,12 +529,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 1600000,
+        "saldo": 1700000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 32
+        "point": 34
       },
       {
         "id": "user-1774838217630",
@@ -559,12 +559,12 @@
         "email": "",
         "phone": "",
         "rekening": "8844559842",
-        "saldo": 2100000,
+        "saldo": 2500000,
         "points": 8,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 53
+        "point": 61
       },
       {
         "id": "user-1775022415809",
@@ -613,6 +613,66 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1789349381600",
+        "timestamp": "2026-09-14T01:29:41.600Z",
+        "nasabahId": "Hestria",
+        "nasabahName": "Hestria",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 1500000,
+        "balanceAfter": 1600000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1789349231469",
+        "timestamp": "2026-09-14T01:27:11.469Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 1600000,
+        "balanceAfter": 1700000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1789349224322",
+        "timestamp": "2026-09-14T01:27:04.322Z",
+        "nasabahId": "Dedipratama",
+        "nasabahName": "Dedi pratama",
+        "amount": 400000,
+        "description": "Setoran",
+        "pointEarned": 8,
+        "balanceBefore": 2100000,
+        "balanceAfter": 2500000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1789349212338",
+        "timestamp": "2026-09-14T01:26:52.338Z",
+        "nasabahId": "Tami",
+        "nasabahName": "Tami (Emenz)",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 1350000,
+        "balanceAfter": 1400000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1789349204486",
+        "timestamp": "2026-09-14T01:26:44.486Z",
+        "nasabahId": "Emen",
+        "nasabahName": "Emen",
+        "amount": 50000,
+        "description": "Setoran",
+        "pointEarned": 1,
+        "balanceBefore": 900000,
+        "balanceAfter": 950000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1789176323721",
         "timestamp": "2026-09-12T01:25:23.721Z",
