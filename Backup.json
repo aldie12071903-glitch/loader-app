@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-09-14T07:29:49.629Z",
+  "exportDate": "2026-09-19T07:20:31.974Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -24,12 +24,12 @@
         "email": "",
         "phone": "",
         "rekening": "8881485117",
-        "saldo": 8900000,
+        "saldo": 9100000,
         "points": 99,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Gold",
-        "point": 488
+        "point": 492
       },
       {
         "id": "user-1774834523749",
@@ -613,6 +613,18 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1789802398470",
+        "timestamp": "2026-09-19T07:19:58.470Z",
+        "nasabahId": "Agusgmx",
+        "nasabahName": "Agus GMX",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 8900000,
+        "balanceAfter": 9100000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1789370954930",
         "timestamp": "2026-09-14T07:29:14.930Z",
