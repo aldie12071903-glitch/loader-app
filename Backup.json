@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-09-30T03:36:51.428Z",
+  "exportDate": "2026-10-02T02:02:43.054Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -263,12 +263,12 @@
         "email": "",
         "phone": "",
         "rekening": "8895277022",
-        "saldo": 1300000,
+        "saldo": 1600000,
         "points": 19,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 20
+        "point": 26
       },
       {
         "id": "user-1774835535739",
@@ -456,12 +456,12 @@
         "email": "",
         "phone": "",
         "rekening": "8899483844",
-        "saldo": 1800000,
+        "saldo": 2000000,
         "points": 30,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "Silver",
-        "point": 37
+        "point": 41
       },
       {
         "id": "user-1774836167093",
@@ -471,7 +471,7 @@
         "email": "",
         "phone": "",
         "rekening": "8816331571",
-        "saldo": 95000,
+        "saldo": 115000,
         "points": 0,
         "role": "nasabah",
         "interestRate": 0.25,
@@ -613,6 +613,42 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1790906556364",
+        "timestamp": "2026-10-02T02:02:36.364Z",
+        "nasabahId": "Kancil",
+        "nasabahName": "Kancil",
+        "amount": 20000,
+        "description": "Setoran",
+        "pointEarned": 0,
+        "balanceBefore": 95000,
+        "balanceAfter": 115000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1790906543395",
+        "timestamp": "2026-10-02T02:02:23.395Z",
+        "nasabahId": "Achid",
+        "nasabahName": "Achid",
+        "amount": 200000,
+        "description": "Setoran",
+        "pointEarned": 4,
+        "balanceBefore": 1800000,
+        "balanceAfter": 2000000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1790903523944",
+        "timestamp": "2026-10-02T01:12:03.944Z",
+        "nasabahId": "Agusk",
+        "nasabahName": "Agus Kliwir",
+        "amount": 300000,
+        "description": "Setoran",
+        "pointEarned": 6,
+        "balanceBefore": 1300000,
+        "balanceAfter": 1600000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1790739346605",
         "timestamp": "2026-09-30T03:35:46.605Z",
