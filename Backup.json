@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-11-11T08:17:11.174Z",
+  "exportDate": "2026-11-14T08:17:26.725Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -263,12 +263,12 @@
         "email": "",
         "phone": "",
         "rekening": "8895277022",
-        "saldo": 1800000,
+        "saldo": 1900000,
         "points": 19,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 30
+        "point": 32
       },
       {
         "id": "user-1774835535739",
@@ -397,12 +397,12 @@
         "email": "",
         "phone": "",
         "rekening": "8894936052",
-        "saldo": 600000,
+        "saldo": 750000,
         "points": 1,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 12
+        "point": 15
       },
       {
         "id": "user-1774835822029",
@@ -613,6 +613,30 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1794644216446",
+        "timestamp": "2026-11-14T08:16:56.446Z",
+        "nasabahId": "Suci",
+        "nasabahName": "Suci",
+        "amount": 150000,
+        "description": "Setoran",
+        "pointEarned": 3,
+        "balanceBefore": 600000,
+        "balanceAfter": 750000,
+        "jenis": "Setoran"
+      },
+      {
+        "id": "TRX-1794644207548",
+        "timestamp": "2026-11-14T08:16:47.548Z",
+        "nasabahId": "Agusk",
+        "nasabahName": "Agus Kliwir",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 1800000,
+        "balanceAfter": 1900000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1794385022897",
         "timestamp": "2026-11-11T08:17:02.897Z",
