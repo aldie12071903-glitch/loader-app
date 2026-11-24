@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-11-18T04:10:31.373Z",
+  "exportDate": "2026-11-24T04:27:15.407Z",
   "data": {
     "tabunganBersama_users": [
       {
@@ -529,12 +529,12 @@
         "email": "",
         "phone": "",
         "rekening": "8856019618",
-        "saldo": 2600000,
+        "saldo": 2700000,
         "points": 4,
         "role": "nasabah",
         "interestRate": 0.25,
         "level": "bronze",
-        "point": 52
+        "point": 54
       },
       {
         "id": "user-1774838217630",
@@ -613,6 +613,18 @@
       }
     ],
     "tabunganBersama_transactions": [
+      {
+        "id": "TRX-1795494432095",
+        "timestamp": "2026-11-24T04:27:12.095Z",
+        "nasabahId": "Nanik",
+        "nasabahName": "Nanik",
+        "amount": 100000,
+        "description": "Setoran",
+        "pointEarned": 2,
+        "balanceBefore": 2600000,
+        "balanceAfter": 2700000,
+        "jenis": "Setoran"
+      },
       {
         "id": "TRX-1794975023129",
         "timestamp": "2026-11-18T04:10:23.129Z",
